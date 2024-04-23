@@ -6,12 +6,6 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 import { signInWithPopup, GoogleAuthProvider } from "firebase/auth";
 const firebaseConfig = {
-    apiKey: "AIzaSyDI26Bw2RZkbNJp-U77lA3v_fX_Wou_hWQ",
-    authDomain: "jooeunpark301414492.firebaseapp.com",
-    projectId: "jooeunpark301414492",
-    storageBucket: "jooeunpark301414492.appspot.com",
-    messagingSenderId: "119117724944",
-    appId: "1:119117724944:web:b7d3637b1b0199b8e73995"
 };
 const firebaseApp = initializeApp(firebaseConfig);
 const auth = getAuth(firebaseApp);
